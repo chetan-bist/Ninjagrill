@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Login page</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="../styles/styles.css" />
+     <script src="jsscript/login.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script type="text/javascript" src="jsscript/jquery.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo">
+        <img src="../images/heroimage.png" alt="logo" />
+      </div>
+      <div class="loginform">
+        <!-- Avatar Image -->
+        <div class="avatar">
+          <img src="../images/Chef-cartoon-logo-vector-PNG.png" alt="Avatar" />
+        </div>
+        <h2>Login</h2>
+        <!-- Start Form -->
+        <form  class="form" action="" method="post" name="myform">
+          <p>Username:</p>
+          <input type="text" name="username" id="username" placeholder="Enter Username" />
+          <p>Password:</p>
+          <input type="password" name="password" id="password" placeholder="Enter Password" />
+          <input type="button" name="login-btn" onclick="connectUser()" value="Login" id="btnlogin" />
+          <a href="#">Forgot your password?</a>
+          <a href="register.html" class="have-not">Don’t have an account?</a>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
